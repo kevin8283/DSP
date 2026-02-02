@@ -1,0 +1,8 @@
+# Ensure notebooks are filtered through nbstripout before committing
+*.ipynb filter=nbstripout
+*.ipynb diff=ipynb
+
+# Standard text file handling
+*.py text diff=python
+*.md text
+*.txt text
